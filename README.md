@@ -21,7 +21,7 @@ Add repository setting
 $ sudo vim /etc/yum.repos.d/trivy.repo
 [trivy]
 name=Trivy repository
-baseurl=https://aquasecurity.github.io/trivy-repo/rpm/releases/$releasever/$basearch/
+baseurl=https://my-demo-company.github.io/rpm/releases/$releasever/$basearch/
 gpgcheck=0
 enabled=1
 $ sudo yum -y update
